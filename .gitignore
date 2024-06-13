@@ -1,0 +1,32 @@
+# Ігноруємо папку node_modules
+node_modules/
+
+# Логи
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Директория/Файл, створений ОС
+.DS_Store
+Thumbs.db
+
+# Навчальні файли
+*.env
+
+# Тимчасові файли
+tmp/
+temp/
+
+# Вихідні файли збірки
+dist/
+build/
+
+# Налаштування IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
